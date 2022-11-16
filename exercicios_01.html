@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 </title>
+</head>
+<body>
+  <H1>Calculo com função</H1>
+  <div id="resultado"></div>
+  <script>
+    let num1 = Number(prompt("Digite o primeiro numero"))
+    let num2 = Number(prompt("Digite o segundo numero"))
+    let resul;
+
+    if(num1 > num2){
+        let resul = "O numero" + num1 + "é maior que " + num2;
+    }else{
+        let resul = "O numero" + num2 + "é maior que " + num1;
+          
+    }
+    
+    document.getElementById("resultado").innerHTML = resul;
+
+  </script>  
+</body>
+</html>
